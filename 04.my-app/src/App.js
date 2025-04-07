@@ -2,23 +2,22 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const isStudent = true;
+  
   return (
+    // return문 안에서는 if문을 쓸수없음
+    // 문자로인식 
+    // <div className="App">
+    // isStudent == true ? <h1>학생입니다</h1> : <h1>학생이 아닙니다</h1>
+    
+    // </div>
+    
+    // 삼항 연산자로 인식하게 하려면 {}안에 넣어준다
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {isStudent == true ? <h1>학생입니다</h1> : <h1>학생이 아닙니다</h1>}
+    
     </div>
+
   );
 }
 
