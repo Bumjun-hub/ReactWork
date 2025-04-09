@@ -1,0 +1,28 @@
+.App {
+  margin: 0 auto;
+  text-align: center;
+  
+
+}
+
+h2{
+  background-color: aliceblue;
+  margin: 0 auto;
+  height: 10vh;
+  line-height: 10vh;
+}
+
+.list{
+  border:1px solid;
+}
+
+.modal{
+  border:1px solid;
+  margin-top : 10px;
+  background-color: azure;
+  
+}
+
+button{
+  margin-top:5px;
+}

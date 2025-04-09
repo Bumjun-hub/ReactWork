@@ -10,9 +10,14 @@ import { useState } from 'react';
 function App() {
   const [count, setCount] = useState(0);
 
-  const onClickBtn = (value)=>{
-    setCount(count + value);
+  const onClickBtn = function(value){
+    return setCount(count+value)
   }
+
+
+  // const onClickBtn = (value)=>{
+  //   setCount(count + value);
+  // }
 
   return (
     <div className="App">

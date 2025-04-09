@@ -10,7 +10,9 @@ import Button from './components/Button'
       형제끼리 : 불가
  */
 
-      /* 문자 혹은 변수로 값 넘겨주기
+// 1. 문자 혹은 변수로 값 넘겨주기
+
+/*
 function App() {
   const name = "홍길동";
   const addr = "서초구 강남대로";
@@ -22,9 +24,12 @@ function App() {
     </div>
   );
 }
-  */
+*/
+  
 
-// 1.객체로 넘겨주기
+// 2.객체로 넘겨주기
+
+
 function App(){
   
   const userInfo ={
@@ -33,13 +38,14 @@ function App(){
     likeList :['게임','음악','춤']
   }
 
-  return(
- // <Compo user={userInfo}/>  2. 객체로 넘겨주기 
- // <Compo {...userInfo}/> // 3. 객체를 스프레드 연사자로 풀어서 넘겨주기
-<Compo/>
+
+ return(
+//  <Compo user={userInfo}/>//  2. 객체로 넘겨주기 
+//  <Compo {...userInfo}/> // 3. 객체를 스프레드 연사자로 풀어서 넘겨주기
+  <Compo/>
 );
 
-
 }
+
 
 export default App;
