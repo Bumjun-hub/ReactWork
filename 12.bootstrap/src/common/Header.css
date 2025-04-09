@@ -1,0 +1,20 @@
+Form {
+    padding: 15px;
+    font-size: 12px;
+
+}
+
+Button {
+    padding: 3px;
+}
+
+.loginbtn,.ms-2 {
+    width: 100%;
+    padding: 3px;
+}
+
+.me-2{
+    width:200px;
+}
+
+

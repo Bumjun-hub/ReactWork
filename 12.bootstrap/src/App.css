@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* 화면 높이만큼 채움 */
+  
+}
+
+body{
+  width:100%;
+  margin:0 auto;
+  height:100%;
+
+}
+
+.section {
+  flex: 1;  /* 이 부분이 푸터를 아래로 밀어줌 */
+}

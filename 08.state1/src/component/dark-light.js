@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './darklight.css';
-import DarkLight from './dark-light';
+
 const DarkLight = () => {
     const [darkLight, setDarkLight] = useState(false);
 
