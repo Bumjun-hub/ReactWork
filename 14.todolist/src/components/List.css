@@ -1,0 +1,54 @@
+.List {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .inputlist {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .todos_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* List.css 또는 Todoitem.css로 분리 가능 */
+.Todoitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .Todoitem input[type="checkbox"] {
+    margin-right:10px;
+  }
+  
+  .Todoitem button {
+    padding:4px 8px;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .Todoitem button:hover {
+    background-color: #ff4d4d;
+  }
+  

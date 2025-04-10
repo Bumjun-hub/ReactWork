@@ -1,23 +1,7 @@
 .App {
-  width:500px;
+  width:100%;
   margin:0 auto;
   display : flex;
   flex-direction: column;
-}
-
-.todolist{
-  text-align: center;
-  width:100%;
-  
-}
-
-.List{
-  text-align: center;
-  
-}
-
-.Todoitem{
-  border:1px solid;
   text-align: center;
 }
-

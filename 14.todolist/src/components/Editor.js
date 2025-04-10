@@ -1,3 +1,4 @@
+import './Editor.css';
 import { useState, useRef } from "react";
 
 const Editor = ({ onCreate }) => {
@@ -7,7 +8,7 @@ const Editor = ({ onCreate }) => {
 
     return (
         <div className='Editor'>
-            <input
+            <input className='Editorinput' placeholder='할 일을 추가해보세요'
                 ref={contentRef}
                 value={content}
                 onChange={(e) => {

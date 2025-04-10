@@ -6,7 +6,7 @@ const Todoitem = ({ id, isDone, content, date,onUpdate,onDelete}) => {
             <input type="checkbox" checked={isDone}
             onChange={() => onUpdate(id)}/> 
             {content}&emsp;
-            <span>{formatDate}</span>
+            <span>{formatDate}</span>&emsp;
             <button onClick={() =>{
                 onDelete(id)
                 }}>삭제</button>

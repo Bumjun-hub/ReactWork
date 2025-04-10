@@ -1,0 +1,21 @@
+.todolist {
+    height: 150px;
+    width: 100s;
+    background-color: aliceblue;    
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    border-bottom: 2px solid #ccc;
+
+  }
+
+  .todolist h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+  }
+
+.todolist h2 {
+    margin: 0; /* 기본 여백 제거 */
+  }

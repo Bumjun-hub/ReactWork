@@ -1,3 +1,4 @@
+import './List.css';
 import { useState } from "react";
 import Todoitem from "./Todoitem";
 
@@ -19,7 +20,7 @@ const List = ({ todos, onUpdate, onDelete }) => {
 
         <div className='List'>
             <h3>TodoList</h3>
-            <input type="text" placeholder="검색어를 입력하세요"
+            <input type="text" className='inputlist'placeholder="검색어를 입력하세요"
                 onChange={(e) => {
                     setSearch(e.target.value);
                 }} />

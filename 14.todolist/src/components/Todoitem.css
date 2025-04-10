@@ -1,0 +1,30 @@
+/* List.css 또는 Todoitem.css로 분리 가능 */
+.Todoitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .Todoitem input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .Todoitem button {
+    padding: 4px 8px;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .Todoitem button:hover {
+    background-color: #ff4d4d;
+  }
+  
