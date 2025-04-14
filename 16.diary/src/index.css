@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 폰트 다운로드하여 public에 넣었을때
+@font-face {
+font-family: 글꼴명;
+src : url('/public/글꼴명.ttf
+}
+*/
+img{
+  width:5%;
+}
+
+html,body{
+  margin : 0;
+  width:100%;
+  background-color: azure;
+}

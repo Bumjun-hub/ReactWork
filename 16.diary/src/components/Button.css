@@ -1,0 +1,27 @@
+.button{
+    border:none;
+    background-color: black;
+    color:white;
+    border-radius: 5px; 
+    cursor:pointer;
+    padding:5px 10px;
+    margin-top: 10px;
+}
+
+/* 일기 추가, 수정 삭제 버튼튼*/
+.btn{   
+
+    background-color: whitesmoke;
+    margin:5px;
+}
+
+.button_green{
+    background-color : green;
+    color:white;
+}
+
+.button_red{
+    background-color: red;
+    color: white;
+}
+

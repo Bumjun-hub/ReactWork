@@ -1,0 +1,46 @@
+/* Cart.css */
+
+.table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    background-color: white;
+  }
+  
+  .table thead {
+    background-color: #f5f6fa;
+    color: #2f3640;
+    font-weight: 600;
+  }
+  
+  .table th, .table td {
+    padding: 18px 20px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f2f6;
+    transition: 0.3s;
+  }
+  
+  .table td button {
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #00a8ff;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .table td button:hover {
+    background-color: #0097e6;
+    cursor: pointer;
+
+  }

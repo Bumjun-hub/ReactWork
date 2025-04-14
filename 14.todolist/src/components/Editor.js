@@ -16,7 +16,7 @@ const Editor = ({ onCreate }) => {
                 }} />&emsp;
 
             <button onClick={() => {
-                if (content.trim == '') {
+                if (content.trim() === '') {
                     contentRef.current.focus();// 입력 안했을시 focus
                     return;
                 }
