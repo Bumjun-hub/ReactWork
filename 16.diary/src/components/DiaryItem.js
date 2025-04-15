@@ -14,7 +14,7 @@ const DiaryItem = (({id,emotionId,createDate,content}) => {
             </div>
             <div className="info_section">
                 <div>{new Date(createDate).toLocaleDateString()}</div>
-                <div>{content}</div>
+                <div onClick={()=>(navigate(`/detail/${id}`))}>{content} </div>
             </div>
 
             <div className="button_section">
