@@ -1,0 +1,19 @@
+.Edit{
+    text-align: center;
+}
+
+.Edit section{
+    margin-top:20px;
+}
+
+.btnsection{
+    display: flex;
+    justify-content: right;
+    margin-right: 8%;
+}
+
+.emotionList{
+    display:flex;
+    justify-content: center;
+    
+}

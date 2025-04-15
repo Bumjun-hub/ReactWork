@@ -8,7 +8,6 @@ import Detail from './pages/Detail';
 import Edit from './pages/Edit';
 import { getEmotionImg } from './util/emotion-img';
 import { createContext, useReducer, useRef } from 'react';
-import Update from './pages/update';
 
 
 
@@ -95,21 +94,63 @@ function App() {
 
 
     <div className="App">
+
+      <Navbar bg="dark" data-bs-theme="dark">
+        <Container>
+
+          <Navbar.Brand onClick={() => navigate('/')}>Fashion Shop</Navbar.Brand>
+          <Nav className="me-auto">
+
+
+            <Nav.Link onClick={() => { navigate('/') }}>Home</Nav.Link>
+            <Nav.Link onClick={() => { navigate('/new') }}>New</Nav.Link>
+            <Nav.Link onClick={() => { navigate('/detail') }}>Detail</Nav.Link>
+            <Nav.Link onClick={() => { navigate('/edit') }}>Edit</Nav.Link>
+          </Nav>
+
+        </Container>
+      </Navbar>
+      <div>
+        <img src={getEmotionImg(1)} />
+        <img src={getEmotionImg(2)} />
+        <img src={getEmotionImg(3)} />
+        <img src={getEmotionImg(4)} />
+        <img src={getEmotionImg(5)} />
+        <img src={getEmotionImg(6)} />
+        <img src={getEmotionImg(7)} />
+
+      </div>
+
+
+
+
       <DiaryStateContext.Provider value={data}>
         <DiaryDispathContext.Provider value={{ onCreate, onUpdate, onDelete }}>
           <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/new' element={<New />}></Route>
-            <Route path='/detail/:id' element={<Detail />}></Route>
+            <Route path='/detail' element={<Detail />}></Route>
             <Route path='/edit' element={<Edit />}></Route>
-            <Route path='/update/:id' element={<Update/>}></Route>
           </Routes>
         </DiaryDispathContext.Provider>
       </DiaryStateContext.Provider><br />
+
+      <button className='btn' onClick={() => {
+        onCreate(new Date().getTime(), 3, "Hello")
+        console.log(data);
+      }}>일기 추가</button>
+      <button className='btn' onClick={() => {
+        onUpdate(1, new Date().getTime(), 3, "수정된 일기 입니다")
+      }}>일기 수정</button>
+
+      <button className='btn' onClick={() => {
+        onDelete(1)
+        console.log(data);
+      }}>일기 삭제</button>
+
     </div>
 
   );
 }
 
 export default App;
-export { DiaryStateContext, DiaryDispathContext };

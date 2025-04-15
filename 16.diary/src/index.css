@@ -19,5 +19,17 @@ img{
 html,body{
   margin : 0;
   width:100%;
-  background-color: azure;
+  
+}
+
+#root{
+  background-color: white;
+  width:600px;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+
+  box-shadow: lightgray 0px 0px 30px 0px;
+
 }

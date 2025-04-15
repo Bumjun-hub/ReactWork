@@ -1,0 +1,42 @@
+.EmotionItem img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain; /* 또는 cover */
+    margin:10px;
+    
+  }
+
+.EmotionItem_on_1{
+  
+  border: 1px solid;
+}
+
+
+.EmotionItem_on_2{
+  
+  border: 1px solid;
+}
+
+.EmotionItem_on_3{
+  
+  border: 1px solid;
+}
+
+.EmotionItem_on_4{
+  
+  border: 1px solid;
+}
+
+.EmotionItem_on_5{
+  border: 1px solid;
+}
+
+.EmotionItem_on_6{
+  
+  border: 1px solid;
+}
+
+.EmotionItem_on_7{
+  
+  border: 1px solid; 
+}
