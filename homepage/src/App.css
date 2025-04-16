@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* 구글폰트 추천 */
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.banner {
+  width: 100%;
+  height: 440px;
+
+}
+
+.containerimg {
+
+  text-align: center;
+  margin-top:20px;
+
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center 70%;
+
+}
+
+img:not(.banner) {
+  width: 100%;
+  /* 칼럼에 딱 맞게 */
+  height: 350px;
+  /* 고정 높이 */
+  object-fit: cover;
+  /* 넘치는 부분 자르고 꽉 채우기 */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* 그림자 */
+  transition: transform 0.2s ease;
+}
+
+img:not(.banner):hover {
+  transform: scale(1.03);
+  /* 마우스 올리면 살짝 확대 */
+}
+
+h4 {
+  margin-top: 10px;
+}

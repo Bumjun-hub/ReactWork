@@ -1,0 +1,82 @@
+/* Detail.css */
+
+.InfoContainer {
+    min-height: 100vh;
+    
+    
+    /* 전체 화면 기준 높이 설정 */
+}
+
+.img-col {
+    padding-top: 30px;
+ 
+    /* 👈 사진을 조금 아래로 밀어줌 */
+}
+
+.img-col img {
+    height: 90vh; /* 화면 기준으로 이미지 세로 길이 설정 */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+.align-items-center {
+    align-items: center;
+    /* Row에서 세로 정렬 */
+    
+}
+
+.itemInfo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .purchase-form {
+    width: 100%;
+    max-width: 400px;
+    height: 70%;              /* 높이를 꽉 채워야 아래로 밀림 */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;    /* 세로 정렬 */
+    justify-content: space-between;  /* 위-아래로 정렬 */
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, #ffffff,#e0e0e0);
+    background-color: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+
+  .purchase-form h4 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .purchase-form p {
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #ddd;
+  }
+
+
+
+  /* 초록색 작은 버튼 */
+.buy-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #218838;
+  }
